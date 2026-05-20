@@ -12,9 +12,9 @@ const { createReadStream } = require('fs');
 const { join } = require('path');
 
 // ─── CONFIGURACIÓN ────────────────────────────────────────────────
-const TOKEN        = const TOKEN = process.env.DISCORD_TOKEN;
-const GUILD_ID     = const GUILD_ID   = process.env.GUILD_ID;
-const CHANNEL_ID   = const CHANNEL_ID = process.env.CHANNEL_ID
+const TOKEN      = process.env.DISCORD_TOKEN;
+const GUILD_ID   = process.env.GUILD_ID;
+const CHANNEL_ID = process.env.CHANNEL_ID;
 // ──────────────────────────────────────────────────────────────────
 
 const client = new Client({
