@@ -123,3 +123,6 @@ client.once('ready', async () => {
 });
 
 client.login(TOKEN);
+// Servidor web para mantener activo en Render
+const http = require('http');
+http.createServer((req, res) => res.end('Bot activo')).listen(process.env.PORT || 3000);
